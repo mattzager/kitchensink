@@ -27,7 +27,7 @@
     <datasource jndi-name="java:jboss/datasources/KitchensinkQuickstartDS"
         pool-name="kitchensink-quickstart" enabled="true"
         use-java-context="true">
-        <connection-url>jdbc:mysql://172.30.212.68:3306/kitchensink</connection-url>
+        <connection-url>jdbc:mysql://mysql.xpaasdemo.svc.cluster.local:3306/kitchensink</connection-url>
         <driver>mysql</driver>
         <security>
             <user-name>kitchensink</user-name>
