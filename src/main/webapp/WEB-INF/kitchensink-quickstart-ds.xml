@@ -27,11 +27,11 @@
     <datasource jndi-name="java:jboss/datasources/KitchensinkQuickstartDS"
         pool-name="kitchensink-quickstart" enabled="true"
         use-java-context="true">
-        <connection-url>jdbc:h2:mem:kitchensink-quickstart;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1</connection-url>
-        <driver>h2</driver>
+        <connection-url>jdbc:mysql://172.30.212.68:3306/kitchensink</connection-url>
+        <driver>mysql</driver>
         <security>
-            <user-name>sa</user-name>
-            <password>sa</password>
+            <user-name>kitchensink</user-name>
+            <password>kitchensink</password>
         </security>
     </datasource>
 </datasources>
